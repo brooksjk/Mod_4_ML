@@ -10,9 +10,10 @@ Requirements:
 Saved model = `V2_smoking_classifier_RF_embed.pkl`
 
 Steps:
-1. unzip the project folder
+1. Clone the respository
+2. Set up compatitable environment using listed requirements
 
-2. Downloaded pretrained embeddings if using the `--use-embeddings` flag
+3. Downloaded pretrained embeddings if using the `--use-embeddings` flag
 ```
 python -m gensim.downloader --download glove-wiki-gigaword-100
 ```
